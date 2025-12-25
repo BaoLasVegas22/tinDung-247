@@ -1,11 +1,11 @@
-/* ✅ Reset mặc định */
+/* Reset mặc định */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ✅ Toàn bộ trang căn giữa và tự động co giãn */
+/* Toàn bộ trang căn giữa và tự động co giãn */
 body {
   width: 100%;
   font-family: Arial, sans-serif;
@@ -13,27 +13,28 @@ body {
   overflow-x: hidden;
 }
 
-/* ✅ Container chính (căn giữa và co giãn theo tỉ lệ) */
+/* Container chính (căn giữa và co giãn theo tỉ lệ) */
 .container {
   width: 90%;
   margin: 0 auto;
   max-width: 1200px;
 }
 
-/* ✅ Hình ảnh auto tỉ lệ */
+/* Hình ảnh auto tỉ lệ */
 img {
   max-width: 100%;
   height: auto;
+  margin: auto;
   display: block;
 }
 
-/* ✅ Video, map, iframe cũng tự co giãn */
+/* Video, map, iframe cũng tự co giãn */
 iframe {
   width: 100%;
   height: auto;
 }
 
-/* ✅ Zalo + Hotline tự thu nhỏ */
+/* Zalo + Hotline tự thu nhỏ */
 .zalo-logo,
 .hotline-logo {
   width: 20vw;
@@ -41,12 +42,12 @@ iframe {
   height: auto;
 }
 
-/* ✅ Căn giữa toàn bộ section */
+/* Căn giữa toàn bộ section */
 section, footer, header, div {
   /* text-align: center; */
 }
 
-/* ✅ RESPONSIVE CHO TỪNG MÀN HÌNH */
+/* RESPONSIVE CHO TỪNG MÀN HÌNH */
 
 /* Mobile (nhỏ hơn 480px) */
 @media (max-width: 480px) {
